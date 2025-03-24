@@ -5,10 +5,10 @@
   >
     <div id="topBar-button" class="relative top-1">
       <button type="button" class="bg-black rounded-full mr-5">
-        <ChevronLeft fillColor="#FFFFFF" size="30" />
+        <ChevronLeft fillColor="#FFFFFF" :size="30" />
       </button>
       <button type="button" class="bg-black rounded-full">
-        <ChevronRight fillColor="#FFFFFF" size="30" />
+        <ChevronRight fillColor="#FFFFFF" :size="30" />
       </button>
     </div>
 
@@ -25,7 +25,7 @@
       </div>
       <h1 class="text-white font-bold text-sm">Jonh Weeks Dev</h1>
       <button type="button" class="bg-black rounded-full">
-        <ChevronDown fillColor="#FFFFFF" size="30" />
+        <ChevronDown fillColor="#FFFFFF" :size="30" />
       </button>
     </div>
   </div>
